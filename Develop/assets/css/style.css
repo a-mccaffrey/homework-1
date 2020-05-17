@@ -1,0 +1,235 @@
+/* Setting the base CSS styling for all elements on webpage */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Change the color of the body text */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Change the font family of the header, give it padding, and give it a background colour and text colour */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Change the font size of the h1 text in the header as well as making sure the proceeding text (navbar) displays in line with it */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Changing JUST the part of the header h1 text that is tagged with the .seo class */
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Font styling (family and style) as well as making the nav bar appear with some general padding and margin to keep it away from the right of the screen, and to float it to the right of the screen. */
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Making sure the nav bar doesn't have bullet points or numbers in front of each option */
+nav ul {
+    list-style-type: none;
+}
+
+/* Makes each option of the nav bar fall in line with each other (next to each other) */
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Makes all the links turn white */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Sets the font size for all the paragraph text on the page */
+p {
+    font-size: 16px;
+}
+
+/* Sets the height, width, size, and position of the hero image, as well as linking the image for display.  */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Makes all elements with float-left class stick to the left side of the screen */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Makes all elements with float-right class stick to the right side of the screen */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Sets the width of the main content section as well as the display so that it will display the images and text side-by-side */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Sets the margin, padding, height, font family, background colour, and text colour for the search-engine-optimization id */
+#search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Sets the margin, padding, height, font family, background colour, and text colour for the online-reputation-management id */
+#online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Sets the margin, padding, height, font family, background colour, and text colour for the social-media-marketing id */
+#social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Sets the max height for the search-engine-optimization id's image */
+#search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* Sets the max height for the online-reputation-management id's image */
+#online-reputation-management img {
+    max-height: 200px;
+}
+
+/* Sets the max height for the social=media-marketing id's image */
+#social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Sets the margin and font size for the search-engine-optimization id's h2 text */
+#search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Sets the margin and font size for the online-reputation-mangement id's h2 text */
+#online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Sets the margin and font size for the social-media-marketing id's h2 text */
+#social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Sets the margin, padding, width, height, font-family, and bg colour for the aside section. Also clears both sides of the section, and floats it to the right. */
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Sets the margin and text colour for the benefit-lead id */
+#benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Sets the margin and text colour for the benefit-brand id */
+#benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Sets the margin and text colour for the benefit-cost id */
+#benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Sets the margin and text alignment for the h3 text of the benefit-lead id */
+#benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Sets the margin and text alignment for the h3 text of the benefit-brand id */
+#benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Sets the margin and text alignment for the h3 text of the benefit-cost id */
+#benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Sets the display property, margin, and max-width of the image for the benefit-lead id */
+#benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Sets the display property, margin, and max-width of the image for the benefit-brand id */
+#benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Sets the display property, margin, and max-width of the image for the benefit-cost id */
+#benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Sets the padding, font-family, and text alignment of the footer, while clearing both sides of the section. */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Sets the font-size for the h4 text in the footer */
+footer h4 {
+    font-size: 20px;
+}
